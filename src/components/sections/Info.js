@@ -35,7 +35,7 @@ const Info = () => {
         </Grid>
       </Grid>
       <Grid container className='other-info'>
-        <Grid item lg={4}>
+        <Grid item sm={4}>
           <h2>
             💼
             <span>Work Experience</span>
@@ -48,7 +48,7 @@ const Info = () => {
             </div>
           ))}
         </Grid>
-        <Grid item lg={4}>
+        <Grid item sm={4}>
           <h2>
             🎓
             <span>Education</span>
