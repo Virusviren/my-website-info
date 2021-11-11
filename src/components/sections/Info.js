@@ -25,16 +25,16 @@ const Info = () => {
         alignItems='center'
         className='info-block-container'
         justifyContent='center'
-        gap={5}
+        gap={8}
       >
         <Grid item>
           <img src={photo} alt='profile-pic' />
         </Grid>
-        <Grid item>
+        <Grid item lg={8}>
           <MainInfo />
         </Grid>
       </Grid>
-      <Grid container className='other-info'>
+      <Grid container className='other-info' justifyContent='center'>
         <Grid item sm={4}>
           <h2>
             💼
@@ -61,7 +61,7 @@ const Info = () => {
             </div>
           ))}
         </Grid>
-        <Grid item lg={4}>
+        <Grid item sm={4}>
           <h2>
             🤝
             <span>Soft skills</span>
