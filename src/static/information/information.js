@@ -21,6 +21,11 @@ const tools = ['Webpack', 'Git', 'Github', 'NPM', 'Postman', 'VSCode'];
 
 // List of work experiences
 const workExperience = [
+    {
+    companyName: 'Viceversa srl',
+    position: 'Software Engineer',
+    duration: 'Dec 2021 - Oct 2023',
+  },
   {
     companyName: 'Strive School Gmbh',
     position: 'Full Stack Developer',
