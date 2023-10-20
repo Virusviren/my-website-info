@@ -1,4 +1,4 @@
-import CV from '../files/VirenCv.pdf';
+import CV from '../files/VirenPatilResume.pdf';
 
 // List of technologies
 const technologies = [
